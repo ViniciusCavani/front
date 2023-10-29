@@ -1,38 +1,197 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Inter', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  
+  top: 0px;
+  width: 100%;
+  background-color: #002d32;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navbar-container {
+  background-color: #002d32;
+  display: flex;
+}
+.text-vertical-center {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+
+.btn-sair {
+  background-color: #73B1B2;
+  border: 0px solid white;
+  padding: 0px 40px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 16px;
   color: white;
+  font-weight: 700;
+  margin: 0px 30px 0px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.panel {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-status {
+  width: 55%;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 145px;
+}
+
+.card-status h2, .card-status h1, .card-status h3 {
+  text-align: center;
+} 
+
+
+.card-status-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-status h2 {
+  text-align: center;
+  font-weight: 100;
+  padding: 0px;
+  margin: 10px;
+} 
+.card-status h1 {
+  margin: 15px 0px -10px 0px;
+  font-weight: 500;
+}
+
+.card-total-vendas {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0px 70px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  height: 145px;
+}
+.card-total-vendas h2 {
+  text-align: center;
+  font-weight: 100;
+  padding: 0px;
+  margin: 10px;
+}
+.card-total-vendas div {
+  height: 100%;
+}
+
+.card-total-vendas h1 {
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.card-table {
+  width: 100%;
+}
+
+.linha-card {
+  border-bottom: 1px solid;
+}
+
+h1 {
+  font-size: 32px !important 
+}
+
+h2 {
+  font-size: 24px !important 
+}
+
+h3 {
+  font-size: 19px !important 
+}
+
+h4 {
+  font-size: 16px !important 
+}
+
+h5 {
+  font-size: 14pxpx !important 
+}
+
+h6 {
+  font-size: 11px !important 
+}
+
+
+.div-image-login {
+  width: 25%;
+  height: 100vh;
+}
+
+.btn-login {
+  background-color: #002d32;
+  border: 0px solid white;
+  padding: 0px 40px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  margin: 30px 30px 0px 0px;
+}
+
+.btn-show-pass {
+  background-color: #002d32;
+  border: 0px solid white;
+  padding: 0px 10px;
+  height: 20px;
+  border-radius: 3px;
+  font-size: 10px;
+  color: white;
+  font-weight: 300;
+  float: right;
+  margin: -25px 0px 0px 0px;
+  z-index: 100;
+  position: relative;
+  right: 5px;
+}
+
+.logo-login {
+  width: 195px;
+  margin: 0px 0px 30px 0px;
+}
+
+.filter-img { 
+  height: 100vh;
+  position: absolute;
+  background: black;
+  z-index: 100;
+  width: 25%;
+  top: 0px;
+  background-color: #005A644D;
+}
+
+
+.card { 
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  padding: 15px 15px 10px 15px;
+}
+
+.row {
+  padding: 0px 20px 
+}
+
+.navbar-container img{ 
+  height: 75px;
+    margin: -10px 0px -10px 0px;
 }
