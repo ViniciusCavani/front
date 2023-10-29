@@ -195,3 +195,15 @@ h6 {
   height: 75px;
     margin: -10px 0px -10px 0px;
 }
+
+.p-CardPedido { 
+    margin-top: 1px;
+    margin-bottom: 4px;
+    font-size: 11px;
+}
+.p2-CardPedido {
+  margin-top: 1px;
+  margin-bottom: 4px; 
+  font-size: 13px;
+  font-weight: 900;
+}

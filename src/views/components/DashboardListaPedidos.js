@@ -43,16 +43,16 @@ const DashboardListaPedidos = () => {
                             </div>
 
                             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "15px"}} className='linha-card'>
-                                <p style={{marginTop: "1px", marginBottom: "4px", fontSize: "11px"}}>Numero</p>
+                                <p className='p-CardPedido'>Numero</p>
                                 <p style={{marginTop: "1px", marginBottom: "4px", fontSize: "13px", fontWeight: "900"}}>{item.numero}</p>
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "15px"}} className='linha-card'>
-                                <p style={{marginTop: "1px", marginBottom: "4px", fontSize: "11px"}}>Numero</p>
+                                <p className='p-CardPedido'>Valor</p>
                                 <p style={{marginTop: "1px", marginBottom: "4px", fontSize: "13px", fontWeight: "900"}}>R$ {item.valor.toFixed(2).toString().replaceAll('.', ',')}</p>
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "15px"}} className='linha-card'>
-                                <p style={{marginTop: "1px", marginBottom: "4px", fontSize: "11px"}}>Numero</p>
-                                <p style={{marginTop: "1px", marginBottom: "4px", fontSize: "13px", fontWeight: "900", color: color}}>{item.status}</p>
+                                <p className='p-CardPedido'>Status</p>
+                                <p className='p2-CardPedido' style={{color: color}}>{item.status}</p>
                             </div>
                         </div>
                     </div>
