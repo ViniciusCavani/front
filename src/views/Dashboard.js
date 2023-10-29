@@ -10,7 +10,7 @@ const Dashboard = ({ setLoggedIn }) => {
   };
 
   return (
-    <div style={{background: "#ebecec"}}>
+    <div style={{background: "#ebecec", minHeight: "100vh"}}>
       <DashboardNavBar handleLogout={handleLogout}/>
 
 
