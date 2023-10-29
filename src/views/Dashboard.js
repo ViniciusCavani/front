@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import DashboardNavBar from './components/DashboardNavBar';
 import DashboardListaPedidos from './components/DashboardListaPedidos';
 import DashboardListaStatus from './components/DashboardListaStatus';

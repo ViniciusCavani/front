@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import '../../App.css';
-import logo from '../../assets/logoNegative 3.png'
+
 
 const DashboardListaPedidos = () => {
 
